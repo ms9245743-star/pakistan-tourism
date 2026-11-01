@@ -1,0 +1,235 @@
+‎
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎<meta charset="UTF-8">
+‎<meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎<title>Pakistan Tourism | Discover Pakistan</title>
+‎
+‎<style>
+‎* { margin:0; padding:0; box-sizing:border-box; }
+‎body {
+‎  font-family: Arial, sans-serif;
+‎  color:#24332c;
+‎  background:#f7faf8;
+‎  line-height:1.6;
+‎}
+‎header {
+‎  background:#075b3b;
+‎  color:white;
+‎  padding:18px 7%;
+‎  display:flex;
+‎  justify-content:space-between;
+‎  align-items:center;
+‎  flex-wrap:wrap;
+‎}
+‎.logo { font-size:25px; font-weight:bold; }
+‎nav a {
+‎  color:white;
+‎  text-decoration:none;
+‎  margin:8px;
+‎}
+‎.hero {
+‎  min-height:480px;
+‎  display:flex;
+‎  align-items:center;
+‎  justify-content:center;
+‎  text-align:center;
+‎  color:white;
+‎  padding:50px 20px;
+‎  background:linear-gradient(#0006,#0008),
+‎  url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600')
+‎  center/cover;
+‎}
+‎.hero h1 { font-size:clamp(35px,6vw,60px); }
+‎.hero p { font-size:19px; margin:15px; }
+‎.btn {
+‎  display:inline-block;
+‎  background:#e4a72f;
+‎  color:#142b20;
+‎  padding:12px 25px;
+‎  border-radius:6px;
+‎  text-decoration:none;
+‎  font-weight:bold;
+‎  margin-top:12px;
+‎}
+‎section { padding:55px 7%; }
+‎.heading { text-align:center; margin-bottom:30px; }
+‎.heading h2 { color:#075b3b; font-size:30px; }
+‎.grid {
+‎  display:grid;
+‎  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+‎  gap:22px;
+‎}
+‎.card {
+‎  background:white;
+‎  border-radius:12px;
+‎  overflow:hidden;
+‎  box-shadow:0 3px 14px #0001;
+‎}
+‎.card img {
+‎  width:100%;
+‎  height:190px;
+‎  object-fit:cover;
+‎}
+‎.card-content { padding:18px; }
+‎.card h3 { color:#075b3b; margin-bottom:8px; }
+‎.card p { color:#555; }
+‎.services { background:#eaf4ed; }
+‎.service {
+‎  background:white;
+‎  padding:25px;
+‎  border-radius:10px;
+‎  text-align:center;
+‎}
+‎.service span { font-size:35px; }
+‎.about { text-align:center; max-width:850px; margin:auto; }
+‎.contact { background:#075b3b; color:white; text-align:center; }
+‎.contact a { color:#f6c65b; }
+‎footer {
+‎  background:#073c2b;
+‎  color:white;
+‎  padding:22px;
+‎  text-align:center;
+‎}
+‎@media(max-width:600px) {
+‎  header { justify-content:center; gap:12px; }
+‎  nav { text-align:center; }
+‎}
+‎</style>
+‎</head>
+‎
+‎<body>
+‎
+‎<header>
+‎  <div class="logo">🇵🇰 Pakistan Tourism</div>
+‎  <nav>
+‎    <a href="#home">Home</a>
+‎    <a href="#destinations">Destinations</a>
+‎    <a href="#packages">Tours</a>
+‎    <a href="#services">Services</a>
+‎    <a href="#contact">Contact</a>
+‎  </nav>
+‎</header>
+‎
+‎<div class="hero" id="home">
+‎  <div>
+‎    <h1>Discover Beautiful Pakistan</h1>
+‎    <p>Explore mountains, valleys, lakes, culture and history.</p>
+‎    <a href="#destinations" class="btn">Explore Pakistan</a>
+‎  </div>
+‎</div>
+‎
+‎<section id="destinations">
+‎  <div class="heading">
+‎    <h2>Popular Destinations</h2>
+‎    <p>Discover the most beautiful places in Pakistan.</p>
+‎  </div>
+‎
+‎  <div class="grid">
+‎    <div class="card">
+‎      <img src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=700" alt="Hunza">
+‎      <div class="card-content">
+‎        <h3>Hunza Valley</h3>
+‎        <p>Beautiful mountains, peaceful villages and amazing landscapes.</p>
+‎      </div>
+‎    </div>
+‎
+‎    <div class="card">
+‎      <img src="https://images.unsplash.com/photo-1589307357647-7e5c7b5f1d7d?w=700" alt="Skardu">
+‎      <div class="card-content">
+‎        <h3>Skardu</h3>
+‎        <p>Explore lakes, mountains and unforgettable adventures.</p>
+‎      </div>
+‎    </div>
+‎
+‎    <div class="card">
+‎      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700" alt="Swat">
+‎      <div class="card-content">
+‎        <h3>Swat Valley</h3>
+‎        <p>Enjoy green valleys, rivers and natural beauty.</p>
+‎      </div>
+‎    </div>
+‎
+‎    <div class="card">
+‎      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=700" alt="Lakes">
+‎      <div class="card-content">
+‎        <h3>Naran & Kaghan</h3>
+‎        <p>Discover beautiful lakes and breathtaking mountain views.</p>
+‎      </div>
+‎    </div>
+‎  </div>
+‎</section>
+‎
+‎<section id="packages" class="services">
+‎  <div class="heading">
+‎    <h2>Tour Packages</h2>
+‎    <p>Travel packages for every type of tourist.</p>
+‎  </div>
+‎  <div class="grid">
+‎    <div class="service">
+‎      <span>👨‍👩‍👧‍👦</span>
+‎      <h3>Family Tours</h3>
+‎      <p>Comfortable family holidays across Pakistan.</p>
+‎    </div>
+‎    <div class="service">
+‎      <span>❤️</span>
+‎      <h3>Honeymoon Tours</h3>
+‎      <p>Special romantic trips and beautiful destinations.</p>
+‎    </div>
+‎    <div class="service">
+‎      <span>🏔️</span>
+‎      <h3>Adventure Tours</h3>
+‎      <p>Trekking, camping and mountain adventures.</p>
+‎    </div>
+‎  </div>
+‎</section>
+‎
+‎<section id="services">
+‎  <div class="heading">
+‎    <h2>Our Services</h2>
+‎    <p>Everything you need for your journey.</p>
+‎  </div>
+‎  <div class="grid">
+‎    <div class="service"><span>🏨</span><h3>Hotel Booking</h3><p>Hotels, resorts and guest houses.</p></div>
+‎    <div class="service"><span>🚙</span><h3>Transport</h3><p>Car rentals, jeeps and private drivers.</p></div>
+‎    <div class="service"><span>🧭</span><h3>Local Guides</h3><p>Experienced local tourism guides.</p></div>
+‎    <div class="service"><span>🗺️</span><h3>Travel Information</h3><p>Maps, weather and road information.</p></div>
+‎  </div>
+‎</section>
+‎
+‎<section>
+‎  <div class="about">
+‎    <h2>About Pakistan Tourism</h2>
+‎    <p>
+‎      Pakistan Tourism is a digital platform dedicated to promoting
+‎      Pakistan's natural beauty, cultural heritage and historical places.
+‎      We connect tourists with travel agencies, hotels, transport
+‎      providers and local guides. Our mission is to make tourism
+‎      easier, safer and more accessible for everyone.
+‎    </p>
+‎    <br>
+‎    <h3>Our Vision</h3>
+‎    <p>To make Pakistan a leading destination for local and international tourism.</p>
+‎    <br>
+‎    <h3>Our Mission</h3>
+‎    <p>Promote tourism, support local businesses and create better travel experiences.</p>
+‎  </div>
+‎</section>
+‎
+‎<section class="contact" id="contact">
+‎  <h2>Explore Pakistan With Us</h2>
+‎  <p>Start planning your next adventure today.</p>
+‎  <p>Email: info@pakistantourism.com</p>
+‎  <p>Website: Pakistan Tourism Platform</p>
+‎  <a href="#home" class="btn">Back to Top</a>
+‎</section>
+‎
+‎<footer>
+‎  <p>© 2026 Pakistan Tourism Platform. All Rights Reserved.</p>
+‎  <p>Discover Pakistan – Experience the Beauty.</p>
+‎</footer>
+‎
+‎</body>
+‎</html>
+‎
